@@ -1,0 +1,60 @@
+#home {
+    display: flex;
+    min-height: calc(100vh - 90px);
+    position: relative;
+}
+#cta {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 5%;
+}
+#cta .title {
+    font-size: 4rem;
+    color: #1d1d1d;
+}
+#cta .title span {
+    color: rgb(12, 12, 155);
+}
+#cta .description {
+    font-size: 1.2rem;
+}
+#cta .buttons {
+    display: flex;
+    gap: 4px;
+    
+}
+#cta .buttons a {
+    text-decoration: none;
+    color:#1d1d1d
+    
+}
+#banner {
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    width: 70%;
+    background-color: rgb(47, 96, 218);
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    border-radius: 40% 30% 0% 20%;
+    top: 0;
+    right: 0;
+}
+#banner img {
+    height: 100%;
+    width: fit-content;
+    
+}
+.shape {
+    background-color: rgb(2, 10, 31);
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    border-radius: 40% 30% 0% 20%;
+    top: 0;
+    right: 0;
+}
+
